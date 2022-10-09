@@ -29,6 +29,13 @@ $theme-colors: (
 .card-black{
     @extend .card;
     background-color: #212529;
-    
 
+    .card-text2 {
+      @extend .card-text
+    }
+    
+    .bg-custom {
+      background-color: #cf649a;
+      
+    }
 }
